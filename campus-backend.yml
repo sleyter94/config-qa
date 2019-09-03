@@ -14,9 +14,9 @@ spring:
     fromIP: campus.joedayz.pe
 
   datasource:
-    url: jdbc:mysql://localhost:3306/api
+    url: jdbc:mysql://localhost/api
     username: root
-    password:
+    password: onegai
     testOnBorrow: true
     removeAbandonedTimeout: 1800
     removeAbandoned: true
